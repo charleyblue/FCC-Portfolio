@@ -37,14 +37,18 @@ img {
    background: repeating-radial-gradient(
      circle at 0 0,
      #aaa,
-     #999 50px
+     #999 150px
      );
      height: 100vh;
      display: flex;
+     flex-direction: column;
      justify-content: center;
      align-items: center;
  }
 #welcome-section h1 {
   margin: 0;
   font-size: 2.2rem;
+}
+.responsive {
+  max-width: 200px;
 }
