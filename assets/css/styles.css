@@ -9,6 +9,8 @@ img {
 }
 #navbar{
   margin: 0;
+  position: fixed;
+  width: 100%;
 }
 .navbar-list {
   background: black;
@@ -36,8 +38,8 @@ img {
  #welcome-section {
    background: repeating-radial-gradient(
      circle at 0 0,
-     #aaa,
-     #999 150px
+     rgba(170, 170, 170, 0.3),
+     rgba(153, 153, 153, 0.7) 150px
      );
      height: 100vh;
      display: flex;
