@@ -1,11 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
 
 }
 img {
   max-width: 100%;
-  height: auto:
+  height: auto;
 }
 #navbar{
   margin: 0;
